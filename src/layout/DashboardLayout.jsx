@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Sidebar from '../components/sidebar/Sidebar';
 import Topbar from '../components/topbar/Topbar';
 import { initializeMockData } from '../utils/mockData';
@@ -10,11 +10,13 @@ const handleResetDemo = () => {
 };
 
 const DashboardLayout = ({ children }) => {
+  const [sidebarOpen, setSidebarOpen] = useState(false);
+
   return (
     <div className="flex min-h-screen w-full bg-gray-50">
-      <Sidebar />
+      <Sidebar open={sidebarOpen} onClose={() => setSidebarOpen(false)} />
       <div className="flex-1 flex flex-col min-w-0 w-full">
-        <Topbar />
+        <Topbar onSidebarToggle={() => setSidebarOpen((v) => !v)} />
         <div className="flex justify-end p-2 w-full">
           <button onClick={handleResetDemo} className="bg-pink-500 text-white px-3 py-1 rounded text-xs shadow hover:bg-pink-600 transition">Reset Demo Data</button>
         </div>
