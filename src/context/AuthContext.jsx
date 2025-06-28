@@ -3,8 +3,8 @@ import React, { createContext, useContext, useState, useEffect } from 'react';
 const AuthContext = createContext();
 
 const USERS = [
-  { id: '1', role: 'Admin', email: 'admin@doctorsclinic.com', password: 'admin123' },
-  { id: '2', role: 'Patient', email: 'john@doctorsclinic.com', password: 'patient123', patientId: 'p1' }
+  { id: '1', role: 'Admin', email: 'admin@entnt.in', password: 'admin123' },
+  { id: '2', role: 'Patient', email: 'john@entnt.in', password: 'patient123', patientId: 'p1' }
 ];
 
 export const AuthProvider = ({ children }) => {

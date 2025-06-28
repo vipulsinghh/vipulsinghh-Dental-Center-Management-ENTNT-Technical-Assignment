@@ -83,12 +83,12 @@ const Login = () => {
             Login
           </button>
           <div className="text-xs text-blue-500 mt-4 text-center select-text">
-            <span className="block mb-1">Demo Admin: <b>admin@doctorsclinic.com</b> / <b>admin123</b></span>
-            <span>Demo Patient: <b>john@doctorsclinic.com</b> / <b>patient123</b></span>
+            <span className="block mb-1">Demo Admin: <b>admin@entnt.in</b> / <b>admin123</b></span>
+            <span>Demo Patient: <b>john@entnt.in</b> / <b>patient123</b></span>
           </div>
         </form>
         <div className="mt-8 text-center text-blue-400 text-xs opacity-80">
-          &copy; {new Date().getFullYear()} Doctor's Clinic. All rights reserved.
+          &copy; {new Date().getFullYear()} entnt.in. All rights reserved.
         </div>
       </motion.div>
     </div>

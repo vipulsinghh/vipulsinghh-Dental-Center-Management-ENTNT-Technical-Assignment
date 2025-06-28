@@ -101,7 +101,7 @@ const PatientDashboard = () => {
           </div>
         </div>
         <div className="mt-8 text-center text-blue-400 text-xs opacity-80">
-          &copy; {new Date().getFullYear()} Doctor's Clinic. All rights reserved.
+          &copy; {new Date().getFullYear()} entnt.in. All rights reserved.
         </div>
       </div>
     </div>

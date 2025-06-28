@@ -2,12 +2,12 @@
 
 const INITIAL_DATA = {
   users: [
-    { id: '1', role: 'Admin', email: 'admin@doctorsclinic.com', password: 'admin123' },
-    { id: '2', role: 'Patient', email: 'john@doctorsclinic.com', password: 'patient123', patientId: 'p1' },
-    { id: '3', role: 'Patient', email: 'jane@doctorsclinic.com', password: 'patient123', patientId: 'p2' },
-    { id: '4', role: 'Patient', email: 'mike@doctorsclinic.com', password: 'patient123', patientId: 'p3' },
-    { id: '5', role: 'Patient', email: 'mary@doctorsclinic.com', password: 'patient123', patientId: 'p4' },
-    { id: '6', role: 'Patient', email: 'robert@doctorsclinic.com', password: 'patient123', patientId: 'p5' }
+    { id: '1', role: 'Admin', email: 'admin@entnt.in', password: 'admin123' },
+    { id: '2', role: 'Patient', email: 'john@entnt.in', password: 'patient123', patientId: 'p1' },
+    { id: '3', role: 'Patient', email: 'jane@entnt.in', password: 'patient123', patientId: 'p2' },
+    { id: '4', role: 'Patient', email: 'mike@entnt.in', password: 'patient123', patientId: 'p3' },
+    { id: '5', role: 'Patient', email: 'mary@entnt.in', password: 'patient123', patientId: 'p4' },
+    { id: '6', role: 'Patient', email: 'robert@entnt.in', password: 'patient123', patientId: 'p5' }
   ],
   patients: [
     {
