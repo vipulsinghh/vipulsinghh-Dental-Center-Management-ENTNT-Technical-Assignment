@@ -12,7 +12,6 @@ A modern, responsive web application for managing a dental clinic. Built with Re
 - **Responsive design:** Works beautifully on desktop, tablet, and mobile
 - **Local data:** All data is stored in the browser (no backend required)
 - **Demo data:** Easily reset to sample data for testing
-<<<<<<< HEAD
 
 ## Getting Started
 
@@ -30,13 +29,14 @@ A modern, responsive web application for managing a dental clinic. Built with Re
 ## Demo Credentials
 
 - **Admin:**  
-  Email: `admin@doctorsclinic.com`  
+  Email: `admin@entnt.in`  
   Password: `admin123`
 - **Patient:**  
-  Email: `john@doctorsclinic.com`  
+  Email: `john@entnt.in`  
   Password: `patient123`
 
 ## Tech Stack
+
 - React (Vite)
 - TailwindCSS
 - Context API
@@ -54,53 +54,3 @@ public/
   # Static assets
 ```
 
-
-=======
-
-## Getting Started
-
-1. **Install dependencies:**
-   ```sh
-   npm install
-   ```
-2. **Start the development server:**
-   ```sh
-   npm run dev
-   ```
-3. **Open in your browser:**
-   Visit [http://localhost:5173](http://localhost:5173)
-
-## Demo Credentials
-
-- **Admin:**  
-  Email: `admin@doctorsclinic.com`  
-  Password: `admin123`
-- **Patient:**  
-  Email: `john@doctorsclinic.com`  
-  Password: `patient123`
-
-## Tech Stack
-- React (Vite)
-- TailwindCSS
-- Context API
-- LocalStorage (for data persistence)
-
-## Folder Structure
-```
-src/
-  components/      # Sidebar, Topbar, etc.
-  context/         # Context providers for auth, patients, incidents
-  layout/          # Dashboard layout
-  pages/           # Dashboard, Login, Patients, Calendar, etc.
-  utils/           # Mock data and helpers
-public/
-  # Static assets
-```
-
-## License
-MIT
-
----
-
-Feel free to fork, modify, and use for your own clinic or as a starting point for similar projects.
->>>>>>> a608507 (work in progress)
